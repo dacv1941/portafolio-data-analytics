@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.serif {
+  font-family: "Newsreader", serif;
+}
+.mono {
+  font-family: "IBM Plex Mono", monospace;
+}

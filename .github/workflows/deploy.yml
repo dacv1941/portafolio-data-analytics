@@ -28,11 +28,9 @@ jobs:
 
       - name: Instalar dependencias
         run: npm install
-        working-directory: sitio-dashboard
 
       - name: Construir el sitio
         run: npm run build
-        working-directory: sitio-dashboard
 
       - name: Preparar Pages
         uses: actions/configure-pages@v5
@@ -40,7 +38,7 @@ jobs:
       - name: Subir el sitio construido
         uses: actions/upload-pages-artifact@v3
         with:
-          path: sitio-dashboard/dist
+          path: dist
 
   deploy:
     needs: build

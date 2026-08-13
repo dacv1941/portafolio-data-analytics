@@ -12,6 +12,8 @@ export default defineConfig({
         main: resolve(__dirname, "index.html"),
         compensacion: resolve(__dirname, "compensacion.html"),
         attrition: resolve(__dirname, "attrition.html"),
+        credito: resolve(__dirname, "credito.html"),
+        causal: resolve(__dirname, "causal.html"),
       },
     },
   },

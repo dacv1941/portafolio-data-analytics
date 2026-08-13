@@ -4,9 +4,9 @@
 body {
   margin: 0;
 }
-.serif {
+.serif, .serif2 {
   font-family: "Newsreader", serif;
 }
-.mono {
+.mono, .mono2 {
   font-family: "IBM Plex Mono", monospace;
 }

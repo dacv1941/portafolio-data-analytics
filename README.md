@@ -1,20 +1,23 @@
-# Portafolio — Diego Armando Castro Vera
+# Portfolio — Diego Armando Castro Vera
 
-Estadístico | Data Analyst | People Analytics | Business Intelligence
+Statistician | Data Analyst | People Analytics | Business Intelligence
 
-Este repositorio reúne proyectos de análisis de datos, modelado estadístico y visualización,
-enfocados principalmente en People Analytics y Business Intelligence aplicado a negocio.
+This repository gathers data analysis, statistical modeling, and visualization projects,
+with a focus on People Analytics and Business Intelligence applied to real business problems.
 
-## Proyectos
+🔗 **Live site:** [dacv1941.github.io/portafolio-data-analytics](https://dacv1941.github.io/portafolio-data-analytics/)
 
-| Proyecto | Descripción | Stack |
+## Projects
+
+| Project | Description | Stack |
 |---|---|---|
-| [01 · Distribución de Incrementos Salariales](./proyecto-01-compensacion) | Diagnóstico de equidad salarial y algoritmo de priorización de presupuesto para un comité de compensación | Python, Pandas, React |
-| [02 · Predicción de Rotación de Personal](./proyecto-02-attrition) | Modelo de clasificación (Regresión Logística + Random Forest, AUC 0.80) sobre dataset público de 1,470 empleados para predecir attrition | Python, Scikit-learn, React |
+| [01 · Salary Increase Budget Distribution](./proyecto-01-compensacion) | Pay equity diagnostic and budget prioritization algorithm for a compensation committee | Python, Pandas, React |
+| [02 · Employee Attrition Prediction](./proyecto-02-attrition) | Classification model (Logistic Regression + Random Forest, AUC 0.80) on a public dataset of 1,470 employees to predict attrition | Python, Scikit-learn, React |
+| [03 · Budget vs. Actuals](./proyecto-03-powerbi) | Data model, DAX measures, and budget variance analysis by department and expense category | Power BI, DAX, Python |
 
-*(más proyectos próximamente)*
+*(more projects coming soon)*
 
-## Contacto
+## Contact
 
 📧 dacv1941@gmail.com
 🔗 [LinkedIn](https://www.linkedin.com/in/diego-armando-castro-vera8a52a8177/)

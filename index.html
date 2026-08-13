@@ -9,9 +9,68 @@
       href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <style>
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: #F4F3EF;
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: #1C1B19;
+      }
+      .wrap { max-width: 780px; margin: 0 auto; padding: 60px 24px; }
+      .eyebrow {
+        font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase;
+        color: #B08D2B; font-weight: 600; margin-bottom: 10px;
+      }
+      h1 {
+        font-family: 'Newsreader', serif; font-weight: 600; font-size: 36px;
+        color: #16233F; margin: 0 0 12px;
+      }
+      p.lead { color: #5C5A54; font-size: 15px; max-width: 560px; line-height: 1.6; }
+      .card {
+        display: block; background: #fff; border: 1px solid #E4E1D8;
+        padding: 22px 24px; margin-top: 16px; text-decoration: none; color: inherit;
+        transition: border-color 0.15s ease;
+      }
+      .card:hover { border-color: #16233F; }
+      .card .tag {
+        font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em;
+        color: #B08D2B; font-weight: 600; margin-bottom: 6px;
+      }
+      .card h2 {
+        font-family: 'Newsreader', serif; font-size: 20px; margin: 0 0 6px; color: #16233F;
+      }
+      .card p { font-size: 13px; color: #5C5A54; margin: 0; line-height: 1.5; }
+      footer { margin-top: 40px; font-size: 12px; color: #8A8778; }
+      footer a { color: #16233F; }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div class="wrap">
+      <div class="eyebrow">Portafolio · Data Analytics</div>
+      <h1>Diego Armando Castro Vera</h1>
+      <p class="lead">
+        Estadístico especializado en People Analytics y Business Intelligence.
+        Proyectos de análisis de datos, modelado predictivo y visualización aplicados a negocio.
+      </p>
+
+      <a class="card" href="./compensacion.html">
+        <div class="tag">Proyecto 01</div>
+        <h2>Distribución de Incrementos Salariales</h2>
+        <p>Diagnóstico de equidad salarial y algoritmo de priorización de presupuesto para un comité de compensación.</p>
+      </a>
+
+      <a class="card" href="./attrition.html">
+        <div class="tag">Proyecto 02</div>
+        <h2>Predicción de Rotación de Personal</h2>
+        <p>Modelo de clasificación (Regresión Logística + Random Forest, AUC 0.80) sobre dataset público de 1,470 empleados.</p>
+      </a>
+
+      <footer>
+        📧 dacv1941@gmail.com ·
+        <a href="https://www.linkedin.com/in/diego-armando-castro-vera8a52a8177/" target="_blank">LinkedIn</a> ·
+        <a href="https://github.com/dacv1941/portafolio-data-analytics" target="_blank">Código en GitHub</a>
+      </footer>
+    </div>
   </body>
 </html>
